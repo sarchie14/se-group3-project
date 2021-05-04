@@ -3,9 +3,9 @@
 Class Database{
  
  
-	private $server = "mysql://k4gv8ml6flnm7huq:zowxgxvqlpo9xfb7@wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306;dbname=akiftmdnwmbttvnr";
+	private $server = "mysql:host=wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=akiftmdnwmbttvnr";
 	private $username = "k4gv8ml6flnm7huq";
-	private $password = "zowxgxvqlpo9xfb7";
+	private $password = "tqpfdvra7fycwm1r";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
  	
